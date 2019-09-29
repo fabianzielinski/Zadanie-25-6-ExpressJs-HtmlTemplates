@@ -1,0 +1,19 @@
+{
+  "name": "zadanie-25-6-expressjs-htmltemplates",
+  "version": "1.0.0",
+  "description": "ExpressJs Html templates",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github"
+  },
+  "author": "fabz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
+}
