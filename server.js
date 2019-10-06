@@ -48,7 +48,6 @@ app.get('/log', function(req, res){
 		url: "http://www.google.com"
 
 	});
-
 });
 
 app.listen(3000);
@@ -56,5 +55,4 @@ app.listen(3000);
 app.use(function (req, res, next) {
 
 		res.status(404).send('Wybacz nie mogliśmy tego uczynić :)');
-
 });
